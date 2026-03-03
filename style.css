@@ -1,0 +1,225 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* BODY */
+body {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* HEADER */
+header {
+    background-color: #2f855a;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    text-decoration: underline;
+}
+
+/* HERO SECTION */
+.hero {
+    height: 80vh;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+    ),
+    url("image/banner.jpg") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-text {
+    color: white;
+    max-width: 600px;
+}
+
+.hero-text h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.btn {
+    background-color: #68d391;
+    color: #1a202c;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #48bb78;
+}
+
+/* ABOUT */
+.about {
+    padding: 60px 40px;
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+}
+
+.about h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #2f855a;
+}
+
+/* FEATURES */
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    padding: 60px 40px;
+}
+
+.feature-card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+}
+
+.feature-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.feature-card h3 {
+    margin: 20px 0 10px;
+    color: #2f855a;
+}
+
+.feature-card p {
+    padding: 0 20px 30px;
+    font-size: 15px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #2f855a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+.page-hero {
+    background-color: #2f855a;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.page-hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.page-hero p {
+    font-size: 16px;
+}
+/* TEXT INSIDE BANNER */
+.page-hero-text {
+    color: #ffffff;
+    max-width: 700px;
+    padding: 20px;
+}
+
+.page-hero-text h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.page-hero-text p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* ===============================
+   PET GUIDE CONTENT SECTION
+   =============================== */
+
+.pet-guide {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    padding: 60px 40px;
+    background-color: #f9f9f9;
+}
+
+/* CARD */
+.guide-card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.guide-card:hover {
+    transform: translateY(-8px);
+}
+
+/* CARD IMAGE */
+.guide-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* CARD TEXT */
+.guide-card h3 {
+    margin: 20px 0 10px;
+    color: #2f855a;
+    font-size: 20px;
+}
+
+.guide-card p {
+    padding: 0 20px 30px;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #333333;
+}
+
